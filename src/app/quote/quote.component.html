@@ -1,0 +1,25 @@
+<div class="container text-center">
+  <div class="row">
+    <div class="card">
+      <div class="card-body">
+        <h1>Random Quote:</h1>
+        <p class="quote">
+          {{quote.quote}}
+        </p>
+        <p class="author">
+          {{quote.author}}
+        </p>
+      </div>
+      <div class="row">
+        <a target="blank" [href]="'https://twitter.com/intent/tweet?text=' + quote.quote" class="btn btn-success mar"><i
+            class="fab fa-twitter"></i></a>
+        <button type="button" class="btn btn-success mar" (click)="getQuote()"><i class="fas fa-arrow-circle-right"></i></button>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <p class="footer">
+      by JozoMihaljević
+    </p>
+  </div>
+</div>

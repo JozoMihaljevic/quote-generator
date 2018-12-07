@@ -1,0 +1,40 @@
+.mar {
+    margin: 10px;
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+
+.card {
+    background-color: #526c9a;
+    text-align: center;
+    margin: 100px auto auto auto;
+    width: 70%;
+}
+
+h1 {
+    padding: 2rem;
+}
+
+.quote {
+    padding: 10px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.author {
+    padding: 10px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 200;
+}
+
+.footer {
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+      width: 100%;
+    }
+  }
