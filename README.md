@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
 
+Angular6 application that fetches random quotes from free API.
+User can click for next quote or link quote in Twitter.
+Project is made with simple custom CSS & some Bootstrap.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
